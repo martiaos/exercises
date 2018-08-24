@@ -1,2 +1,2 @@
 # Exercises
-Exercises in IN1910
+This repository is used for solutions to exercises in IN1910.
