@@ -9,7 +9,7 @@ def factorize(n):
         return [n] #only element, return in list
     else: #otherwise
         primes = [] #generate list
-        for i in range(2,n): #for all numbers to n
+        for i in range(2, n): #for all numbers to n
             if is_prime(i): #if prime
                 primes.append(i) #add to list
 
@@ -22,5 +22,5 @@ def factorize(n):
                 break #stop loop
     return factors #return list
 
-factors = factorize(137283) #test
+factors = factorize(240880) #test
 print(factors)
