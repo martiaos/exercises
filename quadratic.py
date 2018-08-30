@@ -14,10 +14,15 @@ class Quadratic:
         return("%gx^2 + %gx + %g" %(self.a2, self.a1, self.a0))
 
     def __add__(self, other):
-        new_a2 = self.a2 + other.a2
-        new_a1 = self.a1 + other.a1
-        new_a0 = self.a0 + other.a0
-        return Quadratic(new_a2, new_a1, new_a0) 
+        return Quadratic(self.a2 + other.a2,
+                         self.a1 + other.a1,
+                         self.a0 + other.a0)
+
+    def roots(self):
+        a1 = self.a1
+        a2 = self.a2
+        a3 = self.a3
+
 
 f  = Quadratic(1, -2, 1)
 g = Quadratic(-1, 6, -3)
