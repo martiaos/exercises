@@ -1,0 +1,3 @@
+﻿  reduction.cpp
+HelloWorld.obj : error LNK2005: _main already defined in HelloWorld.obj
+C:\Users\marti\Dropbox\Studier\IN1910\exercises\C++\HelloWorld\Release\HelloWorld.exe : fatal error LNK1169: one or more multiply defined symbols found
